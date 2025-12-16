@@ -1,20 +1,32 @@
-# Project XYZ
+# Capstone Project: Data analytics and Python for data preparation
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Capstone Project** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
-
+The AI impact on jobs dataset available on Kaggle contains different occupations, the skills and education needed for them, and how likely they are to be autopmated by 2030. Allowing analysis on which types of jobs are most at risk of automation and why?
 
 ## Business Requirements
-* Describe your business requirements
+1. Clean and Transform Data:
+Prepare the raw dataset by handling missing values, standardising formats, and structuring it for analysis and visualisation.
+2. Classify Job Risk Levels:
+Identify high-, medium-, and low-risk jobs for AI-driven automation based on risk scores.
+3. Analyse Relationships:
+Explore how education levels and skills affect automation risk to understand why some jobs are safer while others are more vulnerable.
+4. Visualise Insights:
+Build clear visual summaries (charts, graphs, dashboards) to highlight key findings for decision-making.
+5. Ensure Compliance:
+Verify that all data handling aligns with regulations such as GDPR to protect personal or sensitive information.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* As of December 2025 in the UK, unemployment is rising, particularly among recent graduates. Hypothesis is jobs requiring routine or manual skills are expected to be at higher risk of AI-driven automation by 2030.
+To valididate this hypothesis:
+1. Analyse Automation Risk Scores: Examine the dataset to determine risk scores assigned to different job categories.
+2. Compare Job Types: Separate jobs into routine/manual versus cognitive/creative, and compare their automation risk levels.
+3. Visualise Patterns: Use bar charts, heatmaps, or scatter plots to highlight differences in risk across job types and support the hypothesis with visual evidence.
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
