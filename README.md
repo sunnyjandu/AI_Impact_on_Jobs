@@ -12,7 +12,7 @@ To find out how AI might affect jobs by 2030. We want to see which jobs are most
 ## Dataset Content
 I’m using the AI Impact on Jobs dataset from Kaggle. It includes different jobs, the skills and education they require, and how likely they are to be automated by 2030. The dataset combines information from sources like O*NET, McKinsey, the World Economic Forum, and LinkedIn/Glassdoor, with all numbers simulated to make the data realistic. Jobs are grouped into High, Medium, or Low automation risk, and skill levels are shown across ten areas. Using this dataset helps me explore which jobs might be most affected by automation and why. It is safe to use because it contains no personal data and complies with data privacy regulations.
 
-Snippit of the Dataset: [View Here](output.html)
+Snippit of the Dataset: [View Here](./output.html)
 
 ## Project Requirements
 1. Clean and Transform Data:
