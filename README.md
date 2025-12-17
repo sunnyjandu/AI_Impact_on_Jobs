@@ -1,12 +1,16 @@
-# Capstone Project: Data analytics and Python for data preparation
-
-**Capstone Project** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
-
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+# AI Impact on Jobs by 2030
+
+Artificial Intelligence is no longer a distant idea. It is already changing how work is done, which skills are important, and which jobs are most at risk of automation. With news reports frequently talking about job lay-offs, some are caused by economic problems, while others are linked to the growing use of AI and automation. This project explores these changes using the AI Impact on Jobs 2030 dataset.
+
+The aim of this analysis is not to predict exactly how many jobs will be lost or created. Instead, it focuses on understanding patterns in AI exposure, automation risk, and how job skills may change across different occupations. By using realistic job roles, salaries, skill levels, and automation probabilities, this dataset helps us explore important questions about the future of work in a safe and ethical way.
 
 
 ## Dataset Content
-The AI impact on jobs dataset available on Kaggle contains different occupations, the skills and education needed for them, and how likely they are to be autopmated by 2030. Allowing analysis on which types of jobs are most at risk of automation and why?
+I’m using the AI Impact on Jobs dataset from Kaggle. It includes different jobs, the skills and education they require, and how likely they are to be automated by 2030. The dataset combines information from sources like O*NET, McKinsey, the World Economic Forum, and LinkedIn/Glassdoor, with all numbers simulated to make the data realistic. Jobs are grouped into High, Medium, or Low automation risk, and skill levels are shown across ten areas. Using this dataset helps me explore which jobs might be most affected by automation and why. It is safe to use because it contains no personal data and complies with data privacy regulations.
+
+Snippit of the Dataset: [View Here](output.html)
 
 ## Business Requirements
 1. Clean and Transform Data:
@@ -28,7 +32,56 @@ To valididate this hypothesis:
 2. Compare Job Types: Separate jobs into routine/manual versus cognitive/creative, and compare their automation risk levels.
 3. Visualise Patterns: Use bar charts, heatmaps, or scatter plots to highlight differences in risk across job types and support the hypothesis with visual evidence.
 
+Project Hypotheses
+
+1. Hypothesis 1:
+
+Jobs requiring routine or manual skills are at higher risk of AI-driven automation by 2030.
+
+Validation:
+
+Analyze automation risk scores across job categories.
+
+Compare risk levels for jobs classified as routine/manual versus cognitive/creative.
+
+Use visualizations (bar charts, heatmaps) to confirm patterns.
+
+2. Hypothesis 2:
+
+Higher education levels correlate with lower automation risk.
+
+Validation:
+
+Group jobs by education level (High School, Bachelor’s, Master’s, PhD).
+
+Calculate average automation risk for each group.
+
+Use scatter plots or boxplots to visualize correlations.
+
+3. Hypothesis 3:
+
+Jobs requiring advanced digital or cognitive skills are less vulnerable to AI automation.
+
+Validation:
+
+Identify skills associated with each job in the dataset.
+
+Compute correlations between skill types and automation risk.
+
+Highlight trends in visual summaries or dashboards.
+
+4. Hypothesis 4 (Optional/Exploratory):
+
+Certain sectors (e.g., healthcare, IT) will have lower overall automation risk compared to manufacturing or clerical jobs.
+
+Validation:
+
+Aggregate jobs by sector and calculate mean risk scores.
+
+Visualize sector-wise risk comparisons using bar charts or heatmaps.
+
 ## Project Plan
+$\color{red}{\text{To be continued}}$
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
@@ -46,11 +99,6 @@ To valididate this hypothesis:
 * Were there any data privacy, bias or fairness issues with the data?
 * How did you overcome any legal or societal issues?
 
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
 
 ## Unfixed Bugs
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
@@ -60,21 +108,6 @@ To valididate this hypothesis:
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
-
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
 
 ## Main Data Analysis Libraries
 * Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
@@ -95,8 +128,6 @@ To valididate this hypothesis:
 
 - The photos used on the home and sign-up page are from This Open-Source site
 - The images used for the gallery page were taken from this other open-source site
-
-
 
 ## Acknowledgements (optional)
 * Thank the people who provided support through this project.
