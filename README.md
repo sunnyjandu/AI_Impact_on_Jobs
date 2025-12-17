@@ -6,13 +6,15 @@ Artificial Intelligence is no longer a distant idea. It is already changing how 
 
 The aim of this analysis is not to predict exactly how many jobs will be lost or created. Instead, it focuses on understanding patterns in AI exposure, automation risk, and how job skills may change across different occupations. By using realistic job roles, salaries, skill levels, and automation probabilities, this dataset helps us explore important questions about the future of work in a safe and ethical way.
 
+## Project Aim 
+To find out how AI might affect jobs by 2030. We want to see which jobs are most at risk, which skills and education can protect jobs, and give clear information to help people and businesses plan for the future.
 
 ## Dataset Content
 I’m using the AI Impact on Jobs dataset from Kaggle. It includes different jobs, the skills and education they require, and how likely they are to be automated by 2030. The dataset combines information from sources like O*NET, McKinsey, the World Economic Forum, and LinkedIn/Glassdoor, with all numbers simulated to make the data realistic. Jobs are grouped into High, Medium, or Low automation risk, and skill levels are shown across ten areas. Using this dataset helps me explore which jobs might be most affected by automation and why. It is safe to use because it contains no personal data and complies with data privacy regulations.
 
 Snippit of the Dataset: [View Here](output.html)
 
-## Business Requirements
+## Project Requirements
 1. Clean and Transform Data:
 Prepare the raw dataset by handling missing values, standardising formats, and structuring it for analysis and visualisation.
 2. Classify Job Risk Levels:
@@ -22,65 +24,66 @@ Explore how education levels and skills affect automation risk to understand why
 4. Visualise Insights:
 Build clear visual summaries (charts, graphs, dashboards) to highlight key findings for decision-making.
 5. Ensure Compliance:
-Verify that all data handling aligns with regulations such as GDPR to protect personal or sensitive information.
+Make sure all data is handled responsibly. The dataset does not contain any personal or sensitive information, so it follows data rules and is safe to use.
 
 
 ## Hypothesis and how to validate?
-* As of December 2025 in the UK, unemployment is rising, particularly among recent graduates. Hypothesis is jobs requiring routine or manual skills are expected to be at higher risk of AI-driven automation by 2030.
-To valididate this hypothesis:
-1. Analyse Automation Risk Scores: Examine the dataset to determine risk scores assigned to different job categories.
-2. Compare Job Types: Separate jobs into routine/manual versus cognitive/creative, and compare their automation risk levels.
-3. Visualise Patterns: Use bar charts, heatmaps, or scatter plots to highlight differences in risk across job types and support the hypothesis with visual evidence.
 
-Project Hypotheses
+### Hypothesis 1
+Entry-level or graduate jobs, which often involve routine or manual tasks, are at higher risk of AI-driven automation by 2030.
 
-1. Hypothesis 1:
+To validate this hypothesis:
 
-Jobs requiring routine or manual skills are at higher risk of AI-driven automation by 2030.
+1. Dataset will be examined to see the automation risk scores for entry-level and graduate jobs.
+2. Jobs seperated into routine/manual versus cognitive/creative roles within entry-level and graduate positions, and compare their risk levels.
+3. Visualise Patterns using bar charts, heatmaps, or scatter plots to show differences in automation risk across these job types and support the hypothesis.
 
-Validation:
 
-Analyze automation risk scores across job categories.
+### Hypothesis 2
 
-Compare risk levels for jobs classified as routine/manual versus cognitive/creative.
+Jobs that require higher education are less likely to be automated.
 
-Use visualizations (bar charts, heatmaps) to confirm patterns.
+To validate this hypothesis:
 
-2. Hypothesis 2:
+1. Jobs will be organised by education level.
+2. Calculate Average Risk: Find the average automation risk for each education group.
+3. Visualise Correlation to show how higher education relates to lower risk.
 
-Higher education levels correlate with lower automation risk.
 
-Validation:
+### Hypothesis 3
 
-Group jobs by education level (High School, Bachelor’s, Master’s, PhD).
+Jobs that need advanced digital or thinking skills (like creativity, communication, or technical skills) are safer from AI automation.
 
-Calculate average automation risk for each group.
+To validate this hypothesis:
 
-Use scatter plots or boxplots to visualize correlations.
+1. Will identify skill scores for each job in the dataset.
+2. Compare skills and risk calculating the correlations between skills and automation risk.
+3. Visualise Trends to show which skills reduce automation risk.
 
-3. Hypothesis 3:
 
-Jobs requiring advanced digital or cognitive skills are less vulnerable to AI automation.
-
-Validation:
-
-Identify skills associated with each job in the dataset.
-
-Compute correlations between skill types and automation risk.
-
-Highlight trends in visual summaries or dashboards.
-
-4. Hypothesis 4 (Optional/Exploratory):
-
-Certain sectors (e.g., healthcare, IT) will have lower overall automation risk compared to manufacturing or clerical jobs.
-
-Validation:
-
-Aggregate jobs by sector and calculate mean risk scores.
-
-Visualize sector-wise risk comparisons using bar charts or heatmaps.
 
 ## Project Plan
+### Planning 
+* Enviroment Setup 
+* Project Kanban Board Setup 
+
+![Kanban Board](kanban.png)
+
+### Data Preparation (ETL)
+
+* Extract: Get the raw data from Kaggle and load into IDE (VSCode).
+* Transform: Clean, standardise, normalise the data so it is ready for analysis.
+* Load: Save the cleaned and structured dataset in a table format for analysis and visualisation seprerate from the raw dataset. 
+
+### Analysis
+
+* Analyse the cleaned dataset based of the 3 hypothesis points using Panda for data analysis. 
+
+### Visualisation
+
+* Visulaise the data analysis using python libraries ploty, Seaborn and Mathplotlib. 
+
+
 $\color{red}{\text{To be continued}}$
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
