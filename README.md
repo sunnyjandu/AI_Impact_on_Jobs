@@ -97,6 +97,12 @@ The results support the hypothesis that jobs requiring higher education are less
 #### Hypothesis 3
 ![alt text](output3.png)
 
+#### Drawbacks of the visualization results:
+
+* Synthetic Data Limitations: based on simulated data, not real labor market observations.
+* Oversimplification of Complex Subject: Not covering all angles of this subject. 
+* Biased Data 
+
 ## Analysis techniques used
 #### Analysis Methods 
 * Correlation Analysis
