@@ -10,7 +10,7 @@ The aim of this analysis is not to predict exactly how many jobs will be lost or
 To find out how AI might affect jobs by 2030. We want to see which jobs are most at risk, which skills and education can protect jobs, and give clear information to help people and businesses plan for the future.
 
 ## Dataset Content
-I’m using the AI Impact on Jobs dataset from Kaggle. It includes different jobs, the skills and education they require, and how likely they are to be automated by 2030. The dataset combines information from sources like O*NET, McKinsey, the World Economic Forum, and LinkedIn/Glassdoor, with all numbers simulated to make the data realistic. Jobs are grouped into High, Medium, or Low automation risk, and skill levels are shown across ten areas. Using this dataset helps me explore which jobs might be most affected by automation and why. It is safe to use because it contains no personal data and complies with data privacy regulations.
+I’m using the AI Impact on Jobs dataset from Kaggle. It includes different jobs, the skills and education they require, and how likely they are to be automated by 2030. The dataset combines information from sources like *'O'NET, McKinsey, the World Economic Forum, and LinkedIn/Glassdoor, with all numbers simulated to make the data realistic. Jobs are grouped into High, Medium, or Low automation risk, and skill scores randomized (0–1) to represent ten skill dimensions like creativity, robotics, and communication'* are shown across ten areas. Using this dataset helps me explore which jobs might be most affected by automation and why. It is safe to use because it contains no personal data and complies with data privacy regulations.
 
 Snippit of the Dataset: [View Here](./output.html) 
 
@@ -82,11 +82,16 @@ To validate this hypothesis:
 * Visualise the data analysis using python libraries ploty, Seaborn and Mathplotlib. 
 
 ## The rationale to map the requirements to the Data Visualisations
-#### Hypothesis 1 ![Output](h1.png)
-![alt text](output.png)
+#### Hypothesis 1 
+![Output](h1.png)
+
+The results show that entry-level and graduate jobs involving routine or manual tasks have higher automation risk scores than those requiring cognitive or creative skills. This suggests that jobs with repetitive and predictable tasks are more vulnerable to AI-driven automation. In contrast, roles that require problem-solving, creativity, and human interaction show lower automation risk. These findings support Hypothesis 1 and indicate that task type plays an important role in determining automation risk.
+
+![alt text](output-1.png)
+
 #### Hypothesis 2
 ![alt text](output2.png)
-Correlation between education level and automation risk: -0.02
+This shows a correlation between education level and automation risk: -0.02
 #### Hypothesis 3
 ![alt text](output3.png)
 ## Analysis techniques used
