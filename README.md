@@ -91,7 +91,9 @@ The results show that entry-level and graduate jobs involving routine or manual 
 
 #### Hypothesis 2
 ![alt text](output2.png)
-This shows a correlation between education level and automation risk: -0.02
+
+The results support the hypothesis that jobs requiring higher education are less likely to be automated. As education level increases, the average automation risk decreases. This suggests that higher-skilled and more specialised roles are more resistant to AI-driven automation.
+
 #### Hypothesis 3
 ![alt text](output3.png)
 ## Analysis techniques used
