@@ -104,14 +104,43 @@ $\color{red}{\text{To be continued}}$
 
 
 ## Unfixed Bugs
+Under the README file --> Data Context --> Snippit of the Dataset: [View Here](./output.html).
 
+The link does not take the user directly to the HTML page on the web. From what I understand, GitHub treats HTML files as code, so clicking the link opens the HTML source instead of rendering the page. Due to time constraints, I was unable to find a solution for this.
+
+During the Plotly visulaisation I was getting the following error:
+
+**ValueError: Mime type rendering requires nbformat>=4.2.0 but it is not installed**
+
+I tried installing the required package, but it didn’t work. I suspect there might have been an issue with the package installation or a version mismatch. Due to time constraints, I implemented a quick fix by displaying Plotly figures directly in the browser using:
+
+_import plotly.io as pio_
+
+_pio.renderers.default = "browser"_
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+### Challenges 
+Installing and configuring the required packages sometimes caused version mismatches or errors.
+Strategy: I read the documentation, tried different installation methods, and used quick fixes—such as displaying Plotly figures directly in the browser—to keep the project on track.
+
+Challenge: Ensuring that the data analysis outputs were visualised according to the hypotheses. Some visualisations initially did not make sense.
+Strategy: I adjusted the code as needed, and AI tools helped me understand the code and create visualisations that accurately supported the hypotheses.
+
+Challenge: Linking HTML outputs in a README so that they display directly in the browser.
+Strategy: I researched GitHub’s behaviour and documented the limitation, with plans to fix it properly later.
+
+### New skills or tools to learn next
+
+Skills: Deeper understanding of package management, virtual environments, and troubleshooting dependency issues.
+
+Tools: GitHub Pages for hosting HTML outputs, advanced Plotly visualization techniques, and automation for deployment of interactive web content.
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* Pandas: Data Analysis
+* Numpy: Numerical Operations
+* Seaborn: Visualisations
+* MathPlotLib: Visualisations
+* Plotly: Visualisations
 
 
 ## Credits 
