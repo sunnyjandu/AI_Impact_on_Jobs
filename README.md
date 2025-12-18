@@ -102,6 +102,7 @@ $\color{red}{\text{To be continued}}$
 * Were there any data privacy, bias or fairness issues with the data?
 * How did you overcome any legal or societal issues?
 
+$\color{red}{\text{end}}$
 
 ## Unfixed Bugs
 Under the README file --> Data Context --> Snippit of the Dataset: [View Here](./output.html).
@@ -120,20 +121,22 @@ _pio.renderers.default = "browser"_
 
 ## Development Roadmap
 ### Challenges 
-Installing and configuring the required packages sometimes caused version mismatches or errors.
-Strategy: I read the documentation, tried different installation methods, and used quick fixes—such as displaying Plotly figures directly in the browser—to keep the project on track.
+1. Installing and configuring the required packages sometimes caused version mismatches or errors.
+I read the documentation, tried different installation methods, and used quick fixes, such as displaying Plotly figures directly in the browser to keep the project on track.
 
-Challenge: Ensuring that the data analysis outputs were visualised according to the hypotheses. Some visualisations initially did not make sense.
-Strategy: I adjusted the code as needed, and AI tools helped me understand the code and create visualisations that accurately supported the hypotheses.
+2. Ensuring that the data analysis outputs were visualised according to the hypotheses. Some visualisations initially did not make sense.
+I adjusted the code as needed, and AI tools helped me understand the code and create visualisations that accurately supported the hypotheses.
 
-Challenge: Linking HTML outputs in a README so that they display directly in the browser.
-Strategy: I researched GitHub’s behaviour and documented the limitation, with plans to fix it properly later.
+3. Linking HTML outputs in a README so that they display directly in the browser.
+I researched GitHub’s behaviour and documented the limitation, with plans to fix it properly later.
 
 ### New skills or tools to learn next
 
-Skills: Deeper understanding of package management, virtual environments, and troubleshooting dependency issues.
-
-Tools: GitHub Pages for hosting HTML outputs, advanced Plotly visualization techniques, and automation for deployment of interactive web content.
+* Deeper understanding of package management and virtual environments
+* GitHub Pages for hosting HTML outputs
+* Advanced visualization techniques
+* Interactive web content
+* More Practice on Numpy and Pandas
 
 ## Main Data Analysis Libraries
 * Pandas: Data Analysis
@@ -145,19 +148,10 @@ Tools: GitHub Pages for hosting HTML outputs, advanced Plotly visualization tech
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Github Copilot
+* https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030/data
+* 
 
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+I would like to express my gratitude to my facilitator and cohorts for support throughout this project.
