@@ -81,8 +81,7 @@ To validate this hypothesis:
 
 ### Visualisation
 
-* Visulaise the data analysis using python libraries ploty, Seaborn and Mathplotlib. 
-
+* Visualise the data analysis using python libraries ploty, Seaborn and Mathplotlib. 
 
 $\color{red}{\text{To be continued}}$
 * Outline the high-level steps taken for the analysis.
@@ -98,11 +97,10 @@ $\color{red}{\text{To be continued}}$
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
-## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
-
 $\color{red}{\text{end}}$
+
+## Ethical considerations
+This Kaggele Dataset is *'synthetic, ensuring no personal or identifiable data'* as mentioned on the site. 
 
 ## Unfixed Bugs
 Under the README file --> Data Context --> Snippit of the Dataset: [View Here](./output.html).
@@ -150,7 +148,6 @@ I researched GitHub’s behaviour and documented the limitation, with plans to f
 
 * Github Copilot
 * https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030/data
-* 
 
 
 ## Acknowledgements (optional)
