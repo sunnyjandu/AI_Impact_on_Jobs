@@ -60,44 +60,45 @@ To validate this hypothesis:
 2. Compare skills and risk calculating the correlations between skills and automation risk.
 3. Visualise Trends to show which skills reduce automation risk.
 
-
-
 ## Project Plan
-### Planning 
+#### Planning 
 * Enviroment Setup 
 * Project Kanban Board Setup 
 
 ![Kanban Board](kanban.png)
 
-### Data Preparation (ETL)
+#### Data Preparation (ETL)
 
 * Extract: Get the raw data from Kaggle and load into IDE (VSCode).
 * Transform: Clean, standardise, normalise the data so it is ready for analysis.
 * Load: Save the cleaned and structured dataset in a table format for analysis and visualisation seprerate from the raw dataset. 
 
-### Analysis
+#### Analysis
 
 * Analyse the cleaned dataset based of the 3 hypothesis points using Panda for data analysis. 
 
-### Visualisation
+#### Visualisation
 
 * Visualise the data analysis using python libraries ploty, Seaborn and Mathplotlib. 
 
-$\color{red}{\text{To be continued}}$
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
-
-## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
-
+## The rationale to map the requirements to the Data Visualisations
+#### Hypothesis 1 ![Output](h1.png)
+![alt text](output.png)
+#### Hypothesis 2
+![alt text](output2.png)
+Correlation between education level and automation risk: -0.02
+#### Hypothesis 3
+![alt text](output3.png)
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+#### Analysis Methods 
+* Correlation Analysis
+* Descriptive Statistics
+* Categorical Analysis
 
-$\color{red}{\text{end}}$
+#### Generative AI Support
+* Helped clean, transform the dataset for analysis.
+* Suggested appropriate charts and visualizations for different data types.
+* Generated Python code for efficient and interactive plotting.
 
 ## Ethical considerations
 This Kaggele Dataset is *'synthetic, ensuring no personal or identifiable data'* as mentioned on the site. 
