@@ -65,7 +65,7 @@ To validate this hypothesis:
 * Enviroment Setup 
 * Project Kanban Board Setup 
 
-![Kanban Board](kanban.png)
+![alt text](Kanban.png)
 
 #### Data Preparation (ETL)
 
@@ -96,6 +96,7 @@ The results support the hypothesis that jobs requiring higher education are less
 
 #### Hypothesis 3
 ![alt text](output3.png)
+
 ## Analysis techniques used
 #### Analysis Methods 
 * Correlation Analysis
@@ -131,7 +132,7 @@ _pio.renderers.default = "browser"_
 I read the documentation, tried different installation methods, and used quick fixes, such as displaying Plotly figures directly in the browser to keep the project on track.
 
 2. Ensuring that the data analysis outputs were visualised according to the hypotheses. Some visualisations initially did not make sense.
-I adjusted the code as needed, and AI tools helped me understand the code and create visualisations that accurately supported the hypotheses.
+I adjusted the code as needed, and AI Github CoPilot helped me understand the code gave suggestions on the analysis to create visualisations that accurately supported the hypotheses.
 
 3. Linking HTML outputs in a README so that they display directly in the browser.
 I researched GitHub’s behaviour and documented the limitation, with plans to fix it properly later.
